@@ -21,7 +21,6 @@ public class CharacterMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Jump");
             move(movement, true, false);
         }
     }
@@ -86,10 +85,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == groundTag)
         {
-            Debug.Log("here");
-            isGrounded = true;
-          
-            
+            isGrounded = true;        
         }
     }
 
