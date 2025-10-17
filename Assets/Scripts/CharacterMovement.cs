@@ -32,7 +32,7 @@ public class CharacterMovement : MonoBehaviour
     public void Dash(float movement)
     {
 
-        if (Input.GetKeyDown(KeyCode.Q) && Mathf.Abs(rb.velocity.x)> 0 )
+        if (Input.GetKeyDown(KeyCode.Q) && Mathf.Abs(rb.linearVelocity.x) > 0 )
         {
             movement_event = movement;
             animationController.SetDashtrigger();
@@ -40,28 +40,26 @@ public class CharacterMovement : MonoBehaviour
     }
     public void move(float move, bool jump, bool dash)
     {
-        Vector3 targetVelocity = new Vector2(move * 10f, rb.velocity.y);
-        rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+        Vector3 targetVelocity = new Vector2(move * 10f, rb.linearVelocity.y);
+        rb.linearVelocity = Vector3.SmoothDamp(rb.linearVelocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
         if (jump)
         {
             isGrounded = false;
-            animationController.SettriggerJump();
-            rb.AddForce(new Vector2(0f, jumpForce));
         }
 
         if (dash)
         {
-            if (rb.velocity.x == 0)
+            if (rb.linearVelocity.x == 0)
             {
                 rb.AddForce(new Vector2(dashForce, 0f));
             }
-            if (rb.velocity.x > 0)
+            if (rb.linearVelocity.x > 0)
             {
                 rb.AddForce(new Vector2(dashForce, 0f));
             }
 
-            if (rb.velocity.x < 0)
+            if (rb.linearVelocity.x < 0)
             {
                 rb.AddForce(new Vector2(-dashForce, 0));
             }
@@ -72,13 +70,13 @@ public class CharacterMovement : MonoBehaviour
     public void CheckLookAt()
     {
 
-        if (rb.velocity.x > 0)
+        if (rb.linearVelocity.x > 0)
         {
             right = true;
             left = false;
         }
 
-        if (rb.velocity.x < 0)
+        if (rb.linearVelocity.x < 0)
         {
             right = false;
             left = true;
@@ -93,5 +91,10 @@ public class CharacterMovement : MonoBehaviour
           
             
         }
+    }
+
+    public void PerformJump()
+    {
+        rb.AddForce(new Vector2(0f, jumpForce));
     }
 }

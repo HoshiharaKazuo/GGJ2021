@@ -3,7 +3,7 @@ guid: 9e8ce832757418c4986eda86265b95dc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,10 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -62,8 +64,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -73,12 +77,590 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0564bca7167495d47b6da307b361ad66
+      internalID: -966960583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 512
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e58ac188a20d4742bf9ad3c29435406
+      internalID: -292794993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 512
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a126d8807a69bd349be258c2898f13d7
+      internalID: 1761874992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 512
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fffe5a12e1e09408417039699cc399
+      internalID: -1486968146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_4
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 512
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7728bc918d04bc84c85142a786b8db77
+      internalID: -1509767913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecbfa3e3b665e1488ecdc022f9cbdfe
+      internalID: 461255617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 384
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b341b2a251ff6954d861a409ade04814
+      internalID: 146608761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 384
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d16f9a35e9add5489b8a2bd75d2fbe1
+      internalID: 1805787706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 384
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73214a5937c2cae49966fa9f626412cc
+      internalID: -929638933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c67dcf206917c4f83eef3d8e8a1770
+      internalID: 240743473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e08f715ea534c141b0249f42041086f
+      internalID: 962467045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_11
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 256
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f61140d1a263974190ce421cf540ab3
+      internalID: 1057180568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f829ead998e95054f816b8663d05b66d
+      internalID: -373340742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 256
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda83069413cca84f8ee76e5e82a4f4b
+      internalID: 1676511333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ed37cd110e54344aff6485f9a0f947
+      internalID: 1961343708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff79bbdaeb9a184f9ce3db0ca194b85
+      internalID: -1074017830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 128
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095669fee367c3840b0985cedaf40364
+      internalID: -1197810365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3574276dc094f40ab56faa914f9a8d
+      internalID: -369761427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 128
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57cbab9788df2841a61b98093252efa
+      internalID: -1950274590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88994fb98f5447f47b80c819f4510682
+      internalID: 1040217332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08df9f60505b9ea49a5cd6a6fd850210
+      internalID: -818921449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258ccef3a3c0c28488e7874b72099020
+      internalID: -496337569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d16c5e6612ee6744985fedde2d8eb84
+      internalID: -989093207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_23
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071d30630b016c74f971e5a1a78a1e99
+      internalID: -1041752087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin spritesheet idle 104 L x 128A_24
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3902cfbbebb706459e3746e841b86fb
+      internalID: -437793515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -88,9 +670,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":104.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Assassin spritesheet idle 104 L x 128A_0: -966960583
+      Assassin spritesheet idle 104 L x 128A_1: -292794993
+      Assassin spritesheet idle 104 L x 128A_10: 962467045
+      Assassin spritesheet idle 104 L x 128A_11: 1057180568
+      Assassin spritesheet idle 104 L x 128A_12: -373340742
+      Assassin spritesheet idle 104 L x 128A_13: 1676511333
+      Assassin spritesheet idle 104 L x 128A_14: 1961343708
+      Assassin spritesheet idle 104 L x 128A_15: -1074017830
+      Assassin spritesheet idle 104 L x 128A_16: -1197810365
+      Assassin spritesheet idle 104 L x 128A_17: -369761427
+      Assassin spritesheet idle 104 L x 128A_18: -1950274590
+      Assassin spritesheet idle 104 L x 128A_19: 1040217332
+      Assassin spritesheet idle 104 L x 128A_2: 1761874992
+      Assassin spritesheet idle 104 L x 128A_20: -818921449
+      Assassin spritesheet idle 104 L x 128A_21: -496337569
+      Assassin spritesheet idle 104 L x 128A_22: -989093207
+      Assassin spritesheet idle 104 L x 128A_23: -1041752087
+      Assassin spritesheet idle 104 L x 128A_24: -437793515
+      Assassin spritesheet idle 104 L x 128A_3: -1486968146
+      Assassin spritesheet idle 104 L x 128A_4: -1509767913
+      Assassin spritesheet idle 104 L x 128A_5: 461255617
+      Assassin spritesheet idle 104 L x 128A_6: 146608761
+      Assassin spritesheet idle 104 L x 128A_7: 1805787706
+      Assassin spritesheet idle 104 L x 128A_8: -929638933
+      Assassin spritesheet idle 104 L x 128A_9: 240743473
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

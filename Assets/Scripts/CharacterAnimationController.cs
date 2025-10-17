@@ -13,8 +13,8 @@ public class CharacterAnimationController : MonoBehaviour
     }
     void Update()
     {
-        anim.SetFloat("velocity", Mathf.Abs(rb.velocity.x));
-        anim.SetFloat("fallvelocity", rb.velocity.y);
+        anim.SetFloat("velocity", Mathf.Abs(rb.linearVelocity.x));
+        anim.SetFloat("fallvelocity", rb.linearVelocity.y);
         if (characterMovement.isGrounded)
         {
             anim.SetBool("grounded",true);

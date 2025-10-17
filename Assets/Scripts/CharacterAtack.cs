@@ -32,7 +32,6 @@ public class CharacterAtack : MonoBehaviour
             }
            
             timeCharge += Time.deltaTime;
-            Debug.Log(timeCharge);
         }
 
         if (Input.GetKeyUp(KeyCode.E))
