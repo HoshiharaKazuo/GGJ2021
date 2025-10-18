@@ -12,14 +12,12 @@ public class CharacterCollisionController : MonoBehaviour
         if (collision.gameObject.tag == enemyTag)
         {
             //yield return new WaitForSeconds(0);
-            Debug.Log("Enemy");
             lifeController.Getdamage();
 
         }
 
         if (collision.gameObject.tag == powerUpTag)
         {
-            Debug.Log("Regen");
             lifeController.RegenLife();
            // yield return new WaitForSeconds(0);
         }
