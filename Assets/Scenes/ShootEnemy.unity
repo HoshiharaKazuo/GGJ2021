@@ -1004,22 +1004,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3685622232541427483, guid: ce417a4ef5a60344eb26cceb6caafa58, type: 3}
-      propertyPath: 'lifes.Array.data[0]'
-      value: 
-      objectReference: {fileID: 754593373}
-    - target: {fileID: 3685622232541427483, guid: ce417a4ef5a60344eb26cceb6caafa58, type: 3}
-      propertyPath: 'lifes.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1932371412}
-    - target: {fileID: 3685622232541427483, guid: ce417a4ef5a60344eb26cceb6caafa58, type: 3}
-      propertyPath: 'lifes.Array.data[2]'
-      value: 
-      objectReference: {fileID: 637668927}
-    - target: {fileID: 3685622232541427483, guid: ce417a4ef5a60344eb26cceb6caafa58, type: 3}
-      propertyPath: 'lifes.Array.data[3]'
-      value: 
-      objectReference: {fileID: 1036832716}
     - target: {fileID: 3838803891973348572, guid: ce417a4ef5a60344eb26cceb6caafa58, type: 3}
       propertyPath: m_Name
       value: Dino

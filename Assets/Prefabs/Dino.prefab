@@ -16,8 +16,6 @@ GameObject:
   - component: {fileID: 3838803891973348569}
   - component: {fileID: 3838803891973348549}
   - component: {fileID: 3629643259121959370}
-  - component: {fileID: 2526621203038898690}
-  - component: {fileID: 3685622232541427483}
   - component: {fileID: 845702846763195309}
   m_Layer: 0
   m_Name: Dino
@@ -187,6 +185,11 @@ MonoBehaviour:
   rb: {fileID: 3838803891973348568}
   characterMovement: {fileID: 3838803891973348569}
   characterAtack: {fileID: 3838803891973348549}
+  maxLife: 5
+  currentLife: 5
+  invulnerabilityTime: 1.2
+  sr: {fileID: 0}
+  damageColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &3838803891973348569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,39 +254,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2526621203038898690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3838803891973348572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc2c6789d0e1d81489e82ae76531920d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyTag: enemy
-  powerUpTag: life
-  lifeController: {fileID: 3685622232541427483}
---- !u!114 &3685622232541427483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3838803891973348572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c952508ebcc86346b0a24a5a0a232bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  currentLife: 0
 --- !u!114 &845702846763195309
 MonoBehaviour:
   m_ObjectHideFlags: 0
