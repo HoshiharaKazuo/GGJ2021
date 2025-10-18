@@ -3,7 +3,7 @@ guid: bc97d05c7e35b9f40a97a14a58ea4514
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,10 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,16 +34,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -62,8 +64,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -73,12 +77,942 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf655cb1ffcbb247b07406962d313f0
+      internalID: -158372867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1350
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e66a575ac32544abbaffd7a2608470
+      internalID: -296729917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1350
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2721a8eae54c2bf4e87a01ca1a36fab4
+      internalID: 2088224803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_3
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1350
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2097d7d0394bca4888b52256d3e48c0
+      internalID: -1588900168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_4
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1350
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57820d310891a0b45b3caa58829f53df
+      internalID: 2193216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487ca4c1846071047bb572bfe10b6ba8
+      internalID: 1579415201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_6
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1200
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2eec0a9c1d93046bfc707cec1fb8e7
+      internalID: -1236908573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1200
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10be3eb48bf827e4db4af586e1270d2f
+      internalID: -1990052862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_8
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1200
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9eed86d205e694b8fe94494dffddbe
+      internalID: -362566933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_9
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1200
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0697d684036adba409318833b80f82dc
+      internalID: 715587211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4e9734aacbc874792c40f5cce23b7d
+      internalID: 786415343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_11
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1050
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af57534ced5fd4e44952e8034a52026d
+      internalID: 1109254508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_12
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1050
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f493ba057eade6743904611fd6df86f4
+      internalID: -183254986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_13
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1050
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd8c9a3b1f7fb14997a3d08959d9365
+      internalID: 1830998986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b99566e9bc382489bd6c7a37ba8eed
+      internalID: 1749238006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_15
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 900
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d6c435e69cfc14ba68268f4858e32d
+      internalID: -60720578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_16
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 900
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd41a95b7c1b6345b602c2b08d0a8b0
+      internalID: 978201318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_17
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 900
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bc94bbf5307fa48a7bb6501a87f253
+      internalID: -1458844509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_18
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 900
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c504a1f82984f6f4495601ac02091230
+      internalID: -258018518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6111a232e3c9f384f9e381feeeafaa05
+      internalID: -1783212707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_20
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 750
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc5f6d344cf64746acb9d03102f8515
+      internalID: 147083845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 750
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f107743aebe48459ecd4127b1aa594
+      internalID: -1548882951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_22
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 750
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e098c79c05aa9994e908fbbd7737d3f8
+      internalID: 2012908807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_23
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 750
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931f8c1f42915164c901fe2be005c487
+      internalID: 1456348563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0789dbb7a819c3942927018061730598
+      internalID: -1307270922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_25
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 600
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ce1e147278a0148abe6f4d36069c30
+      internalID: 205816584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_26
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 600
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a48a3b45eff26a4ba79d390505e6aa2
+      internalID: 981683404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_27
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 600
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec047b1f12b489a42816bb26c6ebac12
+      internalID: 1638223801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_28
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 600
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe8ec62d88294e4b95e08837739d9df
+      internalID: -701928277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5df070ea243d14ea69ec9a0509937f
+      internalID: -1106023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_30
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 450
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9b25c288dff25429eb927da3c6e95e
+      internalID: 907498647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_31
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 450
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d262fb498cc7c46a3cfa11154d7be0
+      internalID: 277287810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_32
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 450
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1291932e1039c4db3afc6ac79cd6d9
+      internalID: -1621751571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_33
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 450
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc040bdcca3d5648927e1bfddb514b1
+      internalID: 1794061553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a770487170eeb409ee5abe3fad37b7
+      internalID: -282629638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_35
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 300
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5fc188376fa4244849fb581e5da4ad
+      internalID: -1646471567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_36
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 300
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0a520e5a904fb4282b59acb7d1bae6
+      internalID: 145862703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_37
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 300
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec470217bc6885d44ae5ccd1da9c36e7
+      internalID: 1901352116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_38
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 300
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb0e3bb52cc3d140b15bccf9ed6e5a6
+      internalID: 551015670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7558de9e7d287714697febea15b4de7b
+      internalID: 1985300611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assassin attack spritesheet 155 L 150 A_40
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 150
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc1542dacc2f2040b0daa54150f45fe
+      internalID: 1514831317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -88,9 +1022,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":155.0,"y":150.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Assassin attack spritesheet 155 L 150 A_0: -158372867
+      Assassin attack spritesheet 155 L 150 A_1: -296729917
+      Assassin attack spritesheet 155 L 150 A_10: 786415343
+      Assassin attack spritesheet 155 L 150 A_11: 1109254508
+      Assassin attack spritesheet 155 L 150 A_12: -183254986
+      Assassin attack spritesheet 155 L 150 A_13: 1830998986
+      Assassin attack spritesheet 155 L 150 A_14: 1749238006
+      Assassin attack spritesheet 155 L 150 A_15: -60720578
+      Assassin attack spritesheet 155 L 150 A_16: 978201318
+      Assassin attack spritesheet 155 L 150 A_17: -1458844509
+      Assassin attack spritesheet 155 L 150 A_18: -258018518
+      Assassin attack spritesheet 155 L 150 A_19: -1783212707
+      Assassin attack spritesheet 155 L 150 A_2: 2088224803
+      Assassin attack spritesheet 155 L 150 A_20: 147083845
+      Assassin attack spritesheet 155 L 150 A_21: -1548882951
+      Assassin attack spritesheet 155 L 150 A_22: 2012908807
+      Assassin attack spritesheet 155 L 150 A_23: 1456348563
+      Assassin attack spritesheet 155 L 150 A_24: -1307270922
+      Assassin attack spritesheet 155 L 150 A_25: 205816584
+      Assassin attack spritesheet 155 L 150 A_26: 981683404
+      Assassin attack spritesheet 155 L 150 A_27: 1638223801
+      Assassin attack spritesheet 155 L 150 A_28: -701928277
+      Assassin attack spritesheet 155 L 150 A_29: -1106023
+      Assassin attack spritesheet 155 L 150 A_3: -1588900168
+      Assassin attack spritesheet 155 L 150 A_30: 907498647
+      Assassin attack spritesheet 155 L 150 A_31: 277287810
+      Assassin attack spritesheet 155 L 150 A_32: -1621751571
+      Assassin attack spritesheet 155 L 150 A_33: 1794061553
+      Assassin attack spritesheet 155 L 150 A_34: -282629638
+      Assassin attack spritesheet 155 L 150 A_35: -1646471567
+      Assassin attack spritesheet 155 L 150 A_36: 145862703
+      Assassin attack spritesheet 155 L 150 A_37: 1901352116
+      Assassin attack spritesheet 155 L 150 A_38: 551015670
+      Assassin attack spritesheet 155 L 150 A_39: 1985300611
+      Assassin attack spritesheet 155 L 150 A_4: 2193216
+      Assassin attack spritesheet 155 L 150 A_40: 1514831317
+      Assassin attack spritesheet 155 L 150 A_5: 1579415201
+      Assassin attack spritesheet 155 L 150 A_6: -1236908573
+      Assassin attack spritesheet 155 L 150 A_7: -1990052862
+      Assassin attack spritesheet 155 L 150 A_8: -362566933
+      Assassin attack spritesheet 155 L 150 A_9: 715587211
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
